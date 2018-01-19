@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: linear-gradient(#FFB5B5, #FFF9B1, #A7FFA7, #92E5FF, #9FA4FF, #FFA4FB);
+	height: 3000px;
+	padding: 100px;
+}
+h1 {
+	text-align: center;
+	color: #333333;
+}

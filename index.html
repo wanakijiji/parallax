@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>デモ１ - Scroll On</title>
+<link href="css/style.css" rel="stylesheet">
+<style>
+	.circle1,
+	.circle2,
+	.circle3 {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: #ffffff;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+	.circle1 {
+		top: 800px;
+		opacity: 0;
+	}
+	.circle1.on {
+		opacity: 1;
+	}
+	.circle2 {
+		top: 1600px;
+		transform: none;
+		border-radius: 50%;
+		background-color: red;
+		left: 20%;
+	}
+	.circle2.on {
+		border-radius: 0;
+		background-color: blue;
+		left: 70%;
+	}
+	.circle3 {
+		top: 2400px;
+	}
+	.circle3.on {
+		width: 400px;
+		height: 400px;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/parallax.js"></script>
+</head>
+
+<body>
+	<h1>下にスクロールしてください</h1>
+	<div class="circle1" data-delay="0.5"></div>
+	<div class="circle2" data-delay="0.5"></div>
+	<div class="circle3" data-delay="0.5"></div>
+</body>
+</html>
