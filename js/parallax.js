@@ -48,7 +48,7 @@
 					}
 				} else {
 					if ( target.selector.hasClass('on') ) {
-						target.selector.removeClass('on');
+						//target.selector.removeClass('on');
 					}
 				}
 			});
