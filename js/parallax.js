@@ -4,7 +4,7 @@
 	$(function() {
 		
 		// アニメーション速度
-		var transition = 1; // 秒
+		var transition = 0.5; // 秒
 	
 		// 変数
 		var windowHeight = $(window).height(),
