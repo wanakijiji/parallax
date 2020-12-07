@@ -8,7 +8,7 @@
 
 ## Description
 
-Simple parallax scrolling implemented as a jQuery plugin. 
+Simple parallax scrolling implemented as a jQuery plugin.  
 シンプルなパララックス効果を実装するためのjQueryプラグインです。
 
 
