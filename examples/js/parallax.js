@@ -20,11 +20,11 @@
     function getPositions() {
       targets = [];
       $('[data-scroll-on]').each(function() {
-        const value = $(this).data('scroll-on');
+        const value = $(this).data('scroll-on') || 0.3;
         const top = $(this).offset().top;
         targets.push({
           selector: $(this),
-          amount: (value > 1) ? value : (value <= 1) ? top - windowHeight + (windowHeight * value) : 0.5,
+          amount: (value > 1) ? value : top - windowHeight + (windowHeight * value),
           playBack: $(this).is('[data-playback]'),
         });
       });
